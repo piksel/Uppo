@@ -4,12 +4,12 @@ A simple command line port opener for UPnP-enabled routers
 
 ### Usage
 
-`uppo PORT "SHORT DESCRIPTION"`  
+    uppo PORT "SHORT DESCRIPTION"
 
 ### Operation
 
 Tries to add a port-mapping on all local routers (devices with a WANIPConnection service) from
-the port `PORT` on the router to the port `PORT` on the computer which runs it.  
+the port `PORT` on the router to the port `PORT` on the computer which runs it, using the description `DESCRIPTION`.  
 It's a bit crappy right now and you cannot have different source and target ports, also you cannot
 specify origin IP.
 

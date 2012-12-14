@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*
+
+  UPnP Port Opener
+  (c) 2012, piksel bitworks
+
+  A lot of code is taken from the ManagedUPnP library example at:
+  http://managedupnp.codeplex.com/
+
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 using ManagedUPnP;
@@ -254,6 +264,7 @@ namespace Uppo
 
         public Object[] ArgsArray
         {
+            // This really should be made prettier
             get
             {
                 var a = new Object[8];
